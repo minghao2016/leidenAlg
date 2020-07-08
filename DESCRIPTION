@@ -9,8 +9,9 @@ License: GPL (>= 2)
 Imports: 
     Rcpp (>= 1.0.4), 
     parallel, 
+    igraph,
     sccore
 Remotes:  
-    hms-dbmi/sccore
+    kharchenkolab/sccore
 LinkingTo: Rcpp, RcppArmadillo, RcppEigen, igraph
 RoxygenNote: 7.1.1
