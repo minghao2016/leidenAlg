@@ -10,9 +10,6 @@ NULL
 #' @description Set names equal to values
 #' @param x an object for which names attribute will be meaningful 
 #' @return An object with names assigned equal to values
-#' @examples
-#' vec = c(1, 2, 3, 4)
-#' set.names(vec)
 #' @keywords internal
 set.names <- function(x) { setNames(x, x) }
 

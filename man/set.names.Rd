@@ -15,8 +15,4 @@ An object with names assigned equal to values
 \description{
 Set names equal to values
 }
-\examples{
-vec = c(1, 2, 3, 4)
-set.names(vec)
-}
 \keyword{internal}
